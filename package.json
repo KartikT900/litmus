@@ -1,0 +1,25 @@
+{
+  "name": "litmus",
+  "version": "1.0.0",
+  "description": "A tool that automates tests for JS and React components",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "Kartik",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/parser": "^7.15.8",
+    "acorn": "^8.5.0",
+    "acorn-jsx": "^5.3.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.2.1",
+    "@commitlint/config-conventional": "^13.2.0",
+    "husky": "^7.0.4",
+    "prettier": "^2.4.1"
+  }
+}
