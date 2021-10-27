@@ -4,7 +4,7 @@
   "description": "A tool that automates tests for JS and React components",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "mocha"
   },
   "keywords": [
     "NodeJS"
@@ -19,7 +19,16 @@
   "devDependencies": {
     "@commitlint/cli": "^13.2.1",
     "@commitlint/config-conventional": "^13.2.0",
+    "@commitlint/cz-commitlint": "^13.2.1",
+    "chai": "^4.3.4",
+    "commitizen": "^4.2.4",
     "husky": "^7.0.4",
+    "mocha": "^9.1.3",
     "prettier": "^2.4.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/@commitlint/cz-commitlint"
+    }
   }
 }
